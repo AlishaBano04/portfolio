@@ -2,14 +2,9 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 
 const outfit = Outfit({
-  subsets: ["Outfit"],
+  subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
-
-// /const ovo = Ovo({
-//   subsets: ["latin"],
-//   weight: ["400"],
-// });
 
 export const metadata = {
   title: "My-Personal-Site",
