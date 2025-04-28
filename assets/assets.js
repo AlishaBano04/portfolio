@@ -37,19 +37,19 @@ export const serviceData = [
   {
     title: "TAX PLANNING",
     description:
-      "Create plans to help people and companies reduce their tax obligations while maintaining legal compliance.",
+      "Create plans to help people and firms to reduce their tax obligations while maintaining legal compliance.",
     link: "",
   },
   {
     title: "ADVISING CLIENTS ON TAX LAW",
     description:
-      "Ensure compliance with both domestic and foreign tax laws, helping clients avoid double taxation and other legal issues.",
+      "Ensure compliance with both domestic tax laws, helping clients avoid double taxation and other legal issues.",
     link: "",
   },
   {
-    title: "HANDLING COORPORATE TAX ISSUES",
+    title: "HANDLING INCOME TAX & GST ISSUES",
     description:
-      "Attorneys review all kinds of transactions, contracts, joint ventures, mergers and acquisitions, investment instruments, asset purchases, etc.",
+      "Filing returns ensure timely and accurate filing of income tax return and GST return.",
     link: "",
   },
   {
@@ -63,16 +63,17 @@ export const serviceData = [
 export const infoList = [
   {
     title: "ACHIEVEMENT",
-    description: "In my 15+ years of experience I have 200+ happy clients.",
+    description:
+      "In my 16+ years of experience as tax consultant. I have 200+ happy clients.",
   },
   {
     title: "EDUCATION",
     description:
-      "M.Com, LL.B. I have advanced knowledge and specialization in accounting and law.  ",
+      "M.Com, LL.B. I have advanced knowledge and specialization in taxation and law.",
   },
   {
     title: "EXPERIENCE",
     description:
-      "I have more than 15+ years of experience in the field of law.",
+      "I have more than 16+ years of experience in the field of taxation law.",
   },
 ];

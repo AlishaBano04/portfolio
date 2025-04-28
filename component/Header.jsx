@@ -11,22 +11,20 @@ const Header = () => {
           alt="profile"
           width={150}
           height={150}
-          className="rounded-full w-32 mt-10"
+          className="rounded-full w-28 mt-32"
         />
       </div>
 
       <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 ">
-        Hi! I'm Imran
+        Hi! I'm Mohd. Imran
       </h3>
       <h2 className=" head text-5xl sm:text-6xl lg:text-[66px] font-Ovo">
-        An Advocate
+        Advocate & Tax Consultant
       </h2>
       <p className="max-w-2xl mx-auto font-Ovo">
-        A person who pleads for a person, cause or idea.
-      </p>
-      <p className="max-w-2xl mx-auto font-Ovo">
-        I chose to go to law school because I thought that someday, somehow I’d
-        make a difference.
+        A person who pleads for a person, cause or idea. <br></br> I chose to go
+        to law school because I thought that someday, somehow I’d make a
+        difference.
       </p>
       <div className="flex flex-col sm:flex-row  items-center gap-4 mt-4">
         <a
