@@ -33,7 +33,7 @@ const Skills = () => {
       <p className="service-list">&#x2705; Digital Signature (DSC)</p>
       <p className="service-list">&#x2705; MSME Registration</p>
       <p className="service-list">&#x2705; GeM Registration</p>
-      <p className="service-list">&#x2705; E-Tender support</p>
+      <p className="service-list">&#x2705; E-Tendering Services</p>
       <p className="service-list">&#x2705; TDS Return.</p>
 
       <p className="service-list">&#x2705; Accounting & Bookkeping</p>
