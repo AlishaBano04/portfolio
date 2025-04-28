@@ -10,7 +10,7 @@ const Footer = () => {
       </h4>
       <div className="text-center">
         <div className="w-max flex items-center gap-2 mx-auto">
-          <Image src="/call_icon.svg" alt="" width={20} height={20} />
+          <Image src="/whatsapp.png" alt="" width={20} height={20} />
           9548381120
         </div>
         <div className="w-max flex items-center gap-2 mx-auto">
