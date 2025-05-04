@@ -21,10 +21,10 @@ const Header = () => {
       <h2 className=" head text-5xl sm:text-6xl lg:text-[66px] font-Ovo">
         Advocate & Tax Consultant
       </h2>
-      <p className="max-w-2xl mx-auto font-Ovo">
-        A person who pleads for a person, cause or idea. <br></br> I chose to go
-        to law school because I thought that someday, somehow I’d make a
-        difference.
+      <p className="max-w-2xl text-2xl text-center mx-auto font-Ovo">
+        A person who pleads for a person, cause or idea. <br></br> <br></br>I
+        chose to go to law school because I thought that someday, somehow I’d
+        make a difference.
       </p>
       <div className="flex flex-col sm:flex-row  items-center gap-4 mt-4">
         <a

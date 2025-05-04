@@ -37,7 +37,7 @@ export const serviceData = [
   {
     title: "TAX PLANNING",
     description:
-      "We create plans to help individuals and firms to reduce and proetct their tax liability while maintaining legal compliance. ",
+      "We create plans to help individuals and firms to reduce and protect their tax liability while maintaining legal compliance. ",
     link: "",
   },
   {
