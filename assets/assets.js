@@ -37,25 +37,25 @@ export const serviceData = [
   {
     title: "TAX PLANNING",
     description:
-      "Create plans to help people and firms to reduce their tax obligations while maintaining legal compliance.",
+      "We create plans to help individuals and firms to reduce and proetct their tax liability while maintaining legal compliance. ",
     link: "",
   },
   {
     title: "ADVISING CLIENTS ON TAX LAW",
     description:
-      "Ensure compliance with both domestic tax laws, helping clients avoid double taxation and other legal issues.",
+      "Ensure compliance with domestic tax laws, helping clients avoid double taxation and other legal issues. ",
     link: "",
   },
   {
     title: "HANDLING INCOME TAX & GST ISSUES",
     description:
-      "Filing returns ensure timely and accurate filing of income tax return and GST return.",
+      "We file income tax and GST return on ensure timely and accurately. and if any query comes we resolve it by answering it on timely.",
     link: "",
   },
   {
     title: "PAYING TAXES",
     description:
-      "Identify strategies within the bounds of the law to save you money on taxes.",
+      "We make people paying taxes on timely ensures their business avoid penalties and high-interest charges.",
     link: "",
   },
 ];

@@ -13,11 +13,9 @@ const About = () => {
           done M.Com, LL.b and I am a dedicated tax advocate with 16+ years of
           experience.I specialize in taxation and I am committed to providing
           clear, practical, and results-driven legal advice. With 16+ years of
-          experience in this field, I have represented a diverse range of
-          clients I pride myself on my integrity, diligence, and client-centered
-          approach. I believe in a proactive and detail-oriented approach to tax
-          issues—keeping clients informed, protected, and empowered every step
-          of the way.
+          experience in this field. My personal strength lies in my ability to
+          pick up new things quickly and my commitment to hard work, my friendly
+          nature, sharing knowledge to others and respect to elders & my work.
         </p>
 
         <ul className="grid lg:grid-cols-3 md:grid-cols-1 mx-6 sm:cols-1 gap-6 my-10">
@@ -25,10 +23,10 @@ const About = () => {
             <li
               key={index}
               className="about-me border-[0.5px] border-gray-400 rounded-xl p-6 curser-pointer hover:-translate-x-1 duration-500">
-              <h3 className="list my-4 font-semibold text-white-700">
+              <h3 className="list text-center my-4 font-semibold text-white-700">
                 {title}
               </h3>
-              <p>{description}</p>
+              <p className="text-center">{description}</p>
             </li>
           ))}
         </ul>
