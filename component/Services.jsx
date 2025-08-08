@@ -1,45 +1,58 @@
-import { assets, serviceData } from "@/assets/assets";
 import React from "react";
 
-const Skills = () => {
+const Services = () => {
+  const services = [
+    "Income Tax Return (ITR)",
+    "GST Registration & Return",
+    "Apply PAN / TAN",
+    "Balance Sheet",
+    "Project Report",
+    "Digital Signature (DSC)",
+    "Partnership Firm Deed",
+    "MSME Registration",
+    "GeM Registration",
+    "E-Tendering Services",
+    "TDS / TCS Return",
+    "Accounting & Bookkeping",
+  ];
+
   return (
-    <div id="skills" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h2 className="head text-center text-5xl">My Services</h2>
-      <p className="text-center max-w-2xl mx-auto mt-5 mb-12 ">
+    <div
+      id="services"
+      className="w-full px-6 sm:px-10 md:px-[12%] py-12 sm:py-16 scroll-mt-20"
+      style={{ backgroundColor: "#001524" }}>
+      {/* Heading */}
+      <h2
+        className="head text-center text-3xl sm:text-4xl md:text-5xl"
+        style={{
+          backgroundImage: "linear-gradient(270deg, #ff6700 10%, #f72585 100%)",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+          fontFamily: "'Poppins', sans-serif",
+        }}>
+        Services We Offer
+      </h2>
+
+      {/* Description */}
+      <p className="text-center max-w-2xl mx-auto mt-3 mb-10 sm:mb-12 text-gray-300 text-base sm:text-lg px-2">
         We provide wide range of services like accounting and taxation.
       </p>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:cols-1 gap-6 my-10">
-        {serviceData.map(({ title, description }, index) => (
+
+      {/* Service Boxes */}
+      <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {services.map((service, index) => (
           <div
             key={index}
-            className="service-data border border-black-400 rounded-lg px-8 py-12 hover:-translate-y-1 duration=">
-            <h3 className="list text-center text-lg my-4 text-white-700">
-              {title}
-            </h3>
-            <p className="text-sm text-center text-white-600 leading-5">
-              {" "}
-              &#x2705; &nbsp;{description}
-            </p>
+            className="service-data bg-[#001524] border border-gray-700 rounded-lg shadow-md px-4 sm:px-6 py-6 sm:py-8 flex items-center justify-center text-center text-white font-medium text-sm sm:text-base md:text-lg hover:-translate-y-1 duration-500"
+            style={{
+              boxShadow: "0 4px 6px rgba(0,0,0,0.3)",
+            }}>
+            {service}
           </div>
         ))}
       </div>
-      <h2 className="list text-3xl bold">Services We Offer</h2>
-      <br></br>
-      <p className="service-list">&#x2705; Income Tax Return (ITR)</p>
-      <p className="service-list">&#x2705; GST Registration & Return</p>
-      <p className="service-list">&#x2705; Apply PAN / TAN</p>
-      <p className="service-list">&#x2705; Balance Sheet</p>
-      <p className="service-list">&#x2705; Project Report</p>
-      <p className="service-list">&#x2705; Digital Signature (DSC)</p>
-      <p className="service-list">&#x2705; Partnership Firm Deed </p>
-      <p className="service-list">&#x2705; MSME Registration</p>
-      <p className="service-list">&#x2705; GeM Registration</p>
-      <p className="service-list">&#x2705; E-Tendering Services</p>
-      <p className="service-list">&#x2705; TDS / TCS Return</p>
-
-      <p className="service-list">&#x2705; Accounting & Bookkeping</p>
     </div>
   );
 };
 
-export default Skills;
+export default Services;
