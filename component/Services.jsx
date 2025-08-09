@@ -43,7 +43,7 @@ const Services = () => {
         {services.map((service, index) => (
           <div
             key={index}
-            className="service-data bg-[#001524] border border-gray-700 rounded-lg shadow-md px-4 sm:px-6 py-6 sm:py-8 flex items-center justify-center text-center text-white font-medium text-sm sm:text-base md:text-lg hover:-translate-y-1 duration-500"
+            className="service-data bg-[#001524] border border-gray-700 rounded-lg shadow-md px-4 sm:px-6 py-6 sm:py-8 flex items-center justify-center text-center text-white font-semibold text-base sm:text-lg md:text-xl hover:-translate-y-1 duration-500"
             style={{
               boxShadow: "0 4px 6px rgba(0,0,0,0.3)",
             }}>
